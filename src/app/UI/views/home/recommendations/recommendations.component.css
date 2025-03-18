@@ -1,0 +1,18 @@
+.default-height{
+  min-height: 200px;
+  display: grid;
+  align-items: center;
+  flex-direction: column;
+}
+.default-height h3{
+  font-size: clamp(16px, 4rem, 4rem)!important;
+}
+.default-height p{
+  font-size: clamp(10px, 1.5rem, 1.5rem);
+}
+
+@media  (max-width: 769px) {
+  .default-height{
+    grid-template-columns: 1fr;
+  }
+}

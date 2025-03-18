@@ -1,0 +1,29 @@
+.hero {
+  background-color: #fa7452f8;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+height: 40vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero a {
+  color: #e41a1a;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 2vw;
+}
+.fs-1{
+  font-size: 2vw!important;
+}
+
+@media (max-width: 769px){
+  .hero{
+    height: 200px;
+  }
+  .fs-1, .hero a{
+    font-size: 4vw!important;
+  }
+}

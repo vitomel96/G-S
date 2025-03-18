@@ -1,0 +1,20 @@
+.disabled.nav-link{
+  opacity: 0.5;
+}
+.logoContainer{
+  height: 100px;
+  width: 200px;
+  background-position: center;
+  display: block;
+}
+
+.logo{
+  font-size: 40px!important;
+  font-family: Poppins, sans-serif;
+}
+
+@media (max-width: 769px){
+  .sm-cont{
+    justify-content: center;
+  }
+}
