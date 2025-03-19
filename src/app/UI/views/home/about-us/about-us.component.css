@@ -18,6 +18,10 @@ justify-content: center;
 .fs-1{
   font-size: 2vw!important;
 }
+.btn-facebook{
+  background-color: #0866ff;
+  border-color: #0866ff;
+}
 
 @media (max-width: 769px){
   .hero{

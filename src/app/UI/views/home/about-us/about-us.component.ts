@@ -12,4 +12,5 @@ import { RecommendationsComponent } from "../recommendations/recommendations.com
 export class AboutUsComponent {
   numero: string = environment.numero;
   whatsapp: string = environment.whatsapp;
+  facebook: string = environment.facebook;
 }
